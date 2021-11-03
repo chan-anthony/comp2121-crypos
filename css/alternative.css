@@ -1,0 +1,17 @@
+.top_bar {
+    position: fixed;
+    background: rgba(183, 202, 204, 0.7);
+    margin: -10px;
+    width: 100%;
+}
+
+.top_bar_buttons {
+    font-size: 40px;
+    text-align: right;
+    padding: 10px;
+    margin-right: 10px;
+}
+.content {
+    position: relative;
+    padding-top: 50px;
+}
