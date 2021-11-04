@@ -1,3 +1,4 @@
+/* Old code
 .top_bar {
     position: fixed;
     background: rgba(183, 202, 204, 0.7);
@@ -11,7 +12,21 @@
     padding: 10px;
     margin-right: 10px;
 }
+*/
+
 .content {
     position: relative;
-    padding-top: 50px;
+    padding-top: 65px;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif
+}
+
+.w3-button {
+    padding: 16px;
+}
+
+.w3-bar {
+    padding: 16px;
 }
