@@ -2,10 +2,21 @@
 
 body {
     height: 100vh;
-    
 }
 
 .container {
+    text-align: center;
+    margin: 0 1em 0;
+}
+
+.description-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 1em;
+    margin-bottom: 2em;
+}
+
+.des-text {
     text-align: center;
 }
 
