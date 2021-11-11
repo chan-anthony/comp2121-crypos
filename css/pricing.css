@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700&display=swap');
+
+body {
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin: 0 1em 0;
+}
+
+.description-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 1em;
+    margin-bottom: 2em;
+}
+
+.des-text {
+    text-align: center;
+}
+
+.cryto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    grid-gap: 1em;
+}
+
+.each-cryto {
+    background: #b4b4b4;
+    
+    
+}
+
+.price {
+    background: #b4b4b4;
+    margin: 0;
+    padding: 1em 0 1em;
+    font-size: 3em;
+    font-weight: 100;
+
+}
+
+.cryto-name {
+    background: #8b8b8b;
+    margin: 0;
+    padding: 0.5em 0 0.5em;
+    font-weight: bold;
+}
