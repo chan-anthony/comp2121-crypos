@@ -1,0 +1,21 @@
+
+.hero .jumbotron {
+    margin: 0;
+    background-image: url("../assets/prcing-real-background.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+
+.hero .jumbotron .container .col-md-12 {
+    color: white;
+    text-align: center;
+}
+
+.buy-nav {
+    display: flex;
+}
+
+.crypto-option {
+    margin-left: 1.2em;
+}
