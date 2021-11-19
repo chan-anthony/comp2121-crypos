@@ -49,6 +49,15 @@
         </div>
     </div>
 
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+    <a href="pricing.html" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+    <a href="explain.html" onclick="w3_close()" class="w3-bar-item w3-button">EXPLAIN</a>
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">ALTERNATIVE</a>
+    </nav>
+
     <div class="container1">
         <br>
         <img src="https://image.cnbcfm.com/api/v1/image/106962967-1634709558798-gettyimages-1235570383-porzycki-cryptocu210928_npbUe.jpeg?v=1635185551" alt="Crypto" width="250" height="250" style="float: left; margin-right: 16px;">
@@ -80,4 +89,20 @@
     </div>
 
 </body>
+
+<script>
+    // Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+} else {
+    mySidebar.style.display = 'block';
+}
+}
+function w3_close() {
+mySidebar.style.display = "none";
+}
+</script>
 </html>
