@@ -8,6 +8,12 @@
     text-align: center;
     font-size: 40px;
 }
+.container1 h3{
+    font-size: 50px;
+}
+.container1 h4{
+    font-size: 30px;
+}
 .container1 p{
     font-size:20px;
     text-align: center;
@@ -15,4 +21,18 @@
 .container1 dl{
     font-size:20px;
 }
+
+.container1 .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .container1 h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .container1 .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
 
