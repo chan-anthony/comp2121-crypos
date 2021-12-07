@@ -19,3 +19,8 @@
 .crypto-option {
     margin-left: 1.2em;
 }
+
+
+.buying-list {
+    display: flex;
+}
