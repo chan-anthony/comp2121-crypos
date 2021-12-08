@@ -1,4 +1,5 @@
 
+
 .hero .jumbotron {
     margin: 0;
     background-image: url("../assets/prcing-real-background.png");
@@ -23,4 +24,5 @@
 
 .buying-list {
     display: flex;
+    flex-direction: column;
 }
